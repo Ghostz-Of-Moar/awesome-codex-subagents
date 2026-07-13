@@ -1,0 +1,34 @@
+{
+  "system": "Flotilla Agent System",
+  "execution_engine": "Codex",
+  "routing_agent": "Harbor",
+  "reporting_agent": "Arbiter",
+  "agent_count": 26,
+  "agents": [
+    "arbiter", "harbor", "conductor", "oshoshi", "archaeon", "architect", "forge", "dockmaster", "tuner", "qa", "watchtower",
+    "sextant", "helix", "custodian", "sentinel", "counsel", "prism", "ariadne", "anansi", "daedalus", "envoy",
+    "ledger", "bridge", "archivist", "advocate", "launchmaster"
+  ],
+  "mandatory_routes": {
+    "asset_discovery": "oshoshi",
+    "existing_code_analysis": "archaeon",
+    "platform_devops_build_deployment_recovery": "dockmaster",
+    "product_analytics_experimentation": "sextant",
+    "ai_ml_data_science_mlops": "helix",
+    "build_buy_license_comparison": ["oshoshi", "ledger", "counsel"],
+    "selected_external_source_analysis": ["oshoshi", "archaeon"],
+    "selected_external_integration": ["oshoshi", "bridge"],
+    "clean_room_reconstruction": ["archaeon", "counsel", "architect", "forge"],
+    "deterministic_math_extension": ["archaeon", "daedalus"],
+    "learned_system_extension": ["archaeon", "helix"],
+    "product_outcome_measurement": ["sextant", "conductor", "advocate", "ledger"],
+    "production_release": ["launchmaster", "dockmaster", "qa", "sentinel", "custodian"],
+    "incident_response": ["watchtower", "harbor", "dockmaster", "sentinel", "custodian", "arbiter"]
+  },
+  "required_entrypoints": [
+    "AGENTS.md",
+    "flotilla-agents/AGENTS_INDEX.md",
+    "flotilla-agents/CODEX_README.md",
+    "flotilla-agents/RESPONSIBILITY_AUGMENTATIONS.md"
+  ]
+}
