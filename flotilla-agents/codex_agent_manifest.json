@@ -1,0 +1,16 @@
+{
+  "system": "Flotilla Agent System",
+  "execution_engine": "Codex",
+  "routing_agent": "Harbor",
+  "reporting_agent": "Arbiter",
+  "agents": [
+    "arbiter", "harbor", "conductor", "architect", "forge", "tuner", "qa", "watchtower",
+    "custodian", "sentinel", "counsel", "prism", "ariadne", "anansi", "daedalus", "envoy",
+    "ledger", "bridge", "archivist", "advocate", "launchmaster"
+  ],
+  "required_entrypoints": [
+    "AGENTS.md",
+    "flotilla-agents/AGENTS_INDEX.md",
+    "flotilla-agents/CODEX_README.md"
+  ]
+}
