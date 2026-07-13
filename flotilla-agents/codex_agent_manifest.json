@@ -4,10 +4,18 @@
   "routing_agent": "Harbor",
   "reporting_agent": "Arbiter",
   "agents": [
-    "arbiter", "harbor", "conductor", "architect", "forge", "tuner", "qa", "watchtower",
+    "arbiter", "harbor", "conductor", "archaeon", "architect", "forge", "tuner", "qa", "watchtower",
     "custodian", "sentinel", "counsel", "prism", "ariadne", "anansi", "daedalus", "envoy",
     "ledger", "bridge", "archivist", "advocate", "launchmaster"
   ],
+  "mandatory_routes": {
+    "existing_code_analysis": "archaeon",
+    "third_party_refactor": "archaeon",
+    "clean_room_reconstruction": "archaeon",
+    "external_code_license_review": ["archaeon", "counsel"],
+    "extracted_math_extension": ["archaeon", "daedalus"],
+    "extracted_ui_redesign": ["archaeon", "ariadne"]
+  },
   "required_entrypoints": [
     "AGENTS.md",
     "flotilla-agents/AGENTS_INDEX.md",
