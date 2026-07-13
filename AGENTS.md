@@ -6,13 +6,20 @@ Codex must use the agent charters in `flotilla-agents/` when working in this rep
 
 1. Conductor confirms scope and priority.
 2. Harbor decomposes work, assigns owners, and tracks dependencies.
-3. Architect defines technical boundaries when architecture is affected.
-4. The appropriate specialist produces requirements.
-5. Forge implements through Codex.
-6. QA and all applicable risk agents review.
-7. Launchmaster coordinates release when appropriate.
-8. Watchtower monitors deployed behavior.
-9. Harbor consolidates results for Arbiter.
+3. Archaeon analyzes any reference or third-party codebase before its ideas, architecture, mathematics, UI behavior, or implementation are adopted.
+4. Architect defines technical boundaries when architecture is affected.
+5. The appropriate specialist produces requirements.
+6. Forge implements through Codex.
+7. QA and all applicable risk agents review.
+8. Launchmaster coordinates release when appropriate.
+9. Watchtower monitors deployed behavior.
+10. Harbor consolidates results for Arbiter.
+
+## Mandatory Archaeon routing
+
+Use Archaeon as PRIMARY AGENT whenever a task asks Codex to inspect, understand, compare, refactor, modernize, adapt, fork, port, reverse-map, replace, or independently reconstruct an existing codebase or application.
+
+Archaeon must separate general ideas and behavior from implementation choices, legally reusable material, and protected or unsuitable expression. Route licensing uncertainty to Counsel before reuse.
 
 ## Required task header
 
@@ -24,6 +31,8 @@ Every substantial Codex task must identify:
 - REPOSITORY
 - BRANCH
 - OBJECTIVE
+- REFERENCE SYSTEM AND VERSION, when applicable
+- LICENSE AND PROVENANCE, when applicable
 - ACCEPTANCE CRITERIA
 - REQUIRED TESTS
 - SECURITY/PRIVACY REVIEW
