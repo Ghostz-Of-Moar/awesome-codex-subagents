@@ -7,14 +7,19 @@ Each agent is defined in a separate Markdown file and includes a dedicated Codex
 - [Harbor](harbor.md)
 - [Conductor](conductor.md)
 
-## Discovery, Code Intelligence, Architecture, and Engineering
+## Discovery, Code Intelligence, Architecture, Engineering, and Platform
 - [Oshoshi](oshoshi.md)
 - [Archaeon](archaeon.md)
 - [Architect](architect.md)
 - [Forge](forge.md)
+- [Dockmaster](dockmaster.md)
 - [Tuner](tuner.md)
 - [QA](qa.md)
 - [Watchtower](watchtower.md)
+
+## Product Intelligence and Learned Systems
+- [Sextant](sextant.md)
+- [Helix](helix.md)
 
 ## Reliability, Security, and Governance
 - [Custodian](custodian.md)
@@ -35,46 +40,29 @@ Each agent is defined in a separate Markdown file and includes a dedicated Codex
 - [Advocate](advocate.md)
 - [Launchmaster](launchmaster.md)
 
-## Oshoshi Trigger Conditions
-
-Route to Oshoshi whenever work asks the flotilla to locate, scan, compare, shortlist, or connect existing:
-
-- repositories and reusable source projects
-- APIs, SDKs, frameworks, services, and integrations
-- datasets, models, checkpoints, research, or algorithms
-- UI kits, Figma libraries, templates, assets, and design systems
-- DSP, MIDI, audio, visual, or creative-technology resources
-- commercial tools, vendors, licensing opportunities, or partnerships
-- overlooked connections between available technology and product requirements
-
-Oshoshi returns a ranked discovery map. Selected source code then routes to Archaeon; integrations route to Bridge; costs route to Ledger; legal questions route to Counsel; mathematics route to Daedalus; design assets route to Ariadne and Prism.
-
-## Archaeon Trigger Conditions
-
-Route to Archaeon whenever work involves an existing third-party, legacy, open-source, purchased, inherited, or unfamiliar codebase and asks for any of the following:
-
-- analysis or explanation
-- architecture extraction
-- algorithm or mathematics extraction
-- UI or interaction-pattern study
-- refactoring or modernization
-- language or framework porting
-- dependency replacement
-- behavior-preserving reconstruction
-- clean-room implementation
-- creation of a new foundation inspired by existing capabilities
+## Trigger Summary
+- Oshoshi: discover and rank existing assets, technologies, vendors, and connections.
+- Archaeon: analyze, refactor, port, or independently reconstruct existing code.
+- Dockmaster: build, CI/CD, environments, deployment, recovery, and operational infrastructure.
+- Sextant: metrics, telemetry, funnels, cohorts, experiments, and quantitative product evidence.
+- Helix: datasets, models, training, retrieval, inference, evaluation, monitoring, and MLOps.
 
 ## Default Work Order
 1. Conductor confirms scope and priority.
-2. Harbor decomposes and routes the work.
-3. Oshoshi scans for useful existing assets and solutions where discovery is relevant.
-4. Archaeon analyzes selected reference code when existing systems are involved.
-5. Architect defines boundaries where required.
-6. The appropriate specialist produces requirements.
-7. Forge/Codex implements.
-8. Ledger, Bridge, Archivist, and Advocate review applicable concerns.
-9. QA, Tuner, Sentinel, Counsel, and Custodian perform verification and risk review.
-10. Launchmaster coordinates release preparation and rollout.
-11. Watchtower monitors deployed behavior.
-12. Harbor consolidates results.
-13. Arbiter reports to the user.
+2. Harbor decomposes and routes work.
+3. Oshoshi discovers existing options where relevant.
+4. Archaeon analyzes selected reference code where relevant.
+5. Architect defines boundaries.
+6. Sextant defines measurement requirements when outcomes must be quantified.
+7. Daedalus or Helix defines deterministic or learned computational systems.
+8. Specialists produce requirements.
+9. Forge/Codex implements.
+10. Dockmaster provides build, deployment, and recovery infrastructure.
+11. Ledger, Bridge, Archivist, and Advocate review applicable concerns.
+12. QA, Tuner, Sentinel, Counsel, and Custodian perform verification and risk review.
+13. Launchmaster coordinates release.
+14. Watchtower monitors deployed behavior.
+15. Harbor consolidates results.
+16. Arbiter reports to the user.
+
+Also read [Responsibility Augmentations](RESPONSIBILITY_AUGMENTATIONS.md) for extended duties that do not justify additional agents.
