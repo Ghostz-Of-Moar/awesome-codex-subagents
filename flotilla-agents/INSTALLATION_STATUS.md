@@ -1,43 +1,39 @@
 # Flotilla Installation Status
 
+## Active on `main`
+
+The Flotilla Agent System is merged and active on the repository's default `main` branch.
+
 ## Installed
 
 - Root `AGENTS.md` Codex entrypoint
 - Agent routing index
 - Codex assignment instructions
 - Machine-readable manifest
-- 23 individual specialist-agent charters
-- Mandatory Oshoshi route for asset discovery and opportunity mapping
-- Mandatory Archaeon route for analysis and reconstruction of existing code
+- Responsibility augmentation rules
+- 26 individual specialist-agent charters
 
-## Oshoshi Coverage
+## Mandatory specialist routes
 
-Oshoshi is now the required primary agent when Codex is asked to search for, discover, compare, shortlist, or map useful repositories, APIs, SDKs, datasets, models, research, UI kits, commercial tools, assets, vendors, and strategic technical connections.
+- **Oshoshi** — asset discovery, technology scanning, solution comparison, and opportunity mapping
+- **Archaeon** — analysis, refactoring, modernization, porting, and independent reconstruction of existing code
+- **Dockmaster** — CI/CD, builds, signing, environments, deployment, rollback, backup, restoration, and disaster recovery
+- **Sextant** — product analytics, telemetry, funnels, cohorts, experiments, retention, and quantitative decision intelligence
+- **Helix** — datasets, model selection, training, fine-tuning, embeddings, retrieval, inference, evaluation, monitoring, and MLOps
+- **Daedalus** — deterministic mathematics, DSP, physics, and procedural systems
 
-Oshoshi routes:
+## Discovery and reconstruction chain
 
-- selected source code and unfamiliar repositories to Archaeon;
-- APIs, SDKs, formats, services, and hardware to Bridge;
-- pricing, procurement, and unit economics to Ledger;
-- licensing and policy uncertainty to Counsel;
-- mathematics, DSP, physics, and procedural opportunities to Daedalus;
-- UI and visual assets to Ariadne and Prism;
-- implementation-ready opportunities to Harbor and Forge/Codex;
-- retained research and source maps to Archivist.
+1. Oshoshi discovers and ranks useful existing assets, technologies, vendors, and connections.
+2. Archaeon analyzes selected source code or reference systems before adoption or reconstruction.
+3. Counsel reviews licensing and reuse uncertainty.
+4. Architect defines the new system boundaries.
+5. Daedalus or Helix defines deterministic or learned computational behavior.
+6. Forge/Codex implements.
+7. Dockmaster provides build, deployment, and recovery infrastructure.
+8. QA, Tuner, Sentinel, Custodian, and other applicable agents verify the result.
+9. Harbor consolidates results for Arbiter.
 
-## Archaeon Coverage
+## Operational state
 
-Archaeon is the required primary agent when Codex is asked to inspect, explain, compare, refactor, modernize, port, adapt, reconstruct, or derive a new independent foundation from readily available code.
-
-Archaeon routes:
-
-- mathematical and algorithmic extensions to Daedalus;
-- independent UI and product redesign to Ariadne;
-- licensing and reuse uncertainty to Counsel;
-- architecture to Architect;
-- production implementation to Forge/Codex;
-- verification to QA, Tuner, Sentinel, and Custodian.
-
-## Activation
-
-The system is installed on branch `install-flotilla-agent-system` and ready for review and merge into `main`. Codex can use the system while operating on that branch; the root instructions become the repository default after the open pull request is merged.
+Pull Request #1 was merged into `main` on July 13, 2026. The root instructions and all 26 agent charters are now the repository-default Codex operating system.
