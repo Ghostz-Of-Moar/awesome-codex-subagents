@@ -6,14 +6,21 @@ Codex must use the agent charters in `flotilla-agents/` when working in this rep
 
 1. Conductor confirms scope and priority.
 2. Harbor decomposes work, assigns owners, and tracks dependencies.
-3. Archaeon analyzes any reference or third-party codebase before its ideas, architecture, mathematics, UI behavior, or implementation are adopted.
-4. Architect defines technical boundaries when architecture is affected.
-5. The appropriate specialist produces requirements.
-6. Forge implements through Codex.
-7. QA and all applicable risk agents review.
-8. Launchmaster coordinates release when appropriate.
-9. Watchtower monitors deployed behavior.
-10. Harbor consolidates results for Arbiter.
+3. Oshoshi scans for useful existing assets, solutions, technologies, and strategic connections when discovery could reduce cost, time, or unnecessary invention.
+4. Archaeon analyzes any selected reference or third-party codebase before its ideas, architecture, mathematics, UI behavior, or implementation are adopted.
+5. Architect defines technical boundaries when architecture is affected.
+6. The appropriate specialist produces requirements.
+7. Forge implements through Codex.
+8. QA and all applicable risk agents review.
+9. Launchmaster coordinates release when appropriate.
+10. Watchtower monitors deployed behavior.
+11. Harbor consolidates results for Arbiter.
+
+## Mandatory Oshoshi routing
+
+Use Oshoshi as PRIMARY AGENT whenever a task asks Codex to search for, discover, compare, shortlist, map, or recommend existing repositories, APIs, SDKs, datasets, models, research, libraries, UI kits, commercial tools, assets, vendors, integrations, or strategic technical connections.
+
+Oshoshi must record provenance, version, license, maintenance health, platform compatibility, adoption cost, security implications, lock-in risk, recommended disposition, receiving agent, and next action.
 
 ## Mandatory Archaeon routing
 
@@ -31,6 +38,7 @@ Every substantial Codex task must identify:
 - REPOSITORY
 - BRANCH
 - OBJECTIVE
+- DISCOVERY QUESTION, when applicable
 - REFERENCE SYSTEM AND VERSION, when applicable
 - LICENSE AND PROVENANCE, when applicable
 - ACCEPTANCE CRITERIA
