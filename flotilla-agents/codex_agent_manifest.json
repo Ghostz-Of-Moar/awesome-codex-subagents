@@ -4,11 +4,18 @@
   "routing_agent": "Harbor",
   "reporting_agent": "Arbiter",
   "agents": [
-    "arbiter", "harbor", "conductor", "archaeon", "architect", "forge", "tuner", "qa", "watchtower",
+    "arbiter", "harbor", "conductor", "oshoshi", "archaeon", "architect", "forge", "tuner", "qa", "watchtower",
     "custodian", "sentinel", "counsel", "prism", "ariadne", "anansi", "daedalus", "envoy",
     "ledger", "bridge", "archivist", "advocate", "launchmaster"
   ],
   "mandatory_routes": {
+    "asset_discovery": "oshoshi",
+    "technology_landscape_scan": "oshoshi",
+    "repository_shortlisting": "oshoshi",
+    "api_sdk_dataset_model_discovery": "oshoshi",
+    "build_buy_license_comparison": ["oshoshi", "ledger", "counsel"],
+    "selected_external_source_analysis": ["oshoshi", "archaeon"],
+    "selected_external_integration": ["oshoshi", "bridge"],
     "existing_code_analysis": "archaeon",
     "third_party_refactor": "archaeon",
     "clean_room_reconstruction": "archaeon",
